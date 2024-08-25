@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(199, 211, 202);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: darkgreen;
+}
+
+.MeteoApp {
+  background: rgb(155, 198, 167);
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 15px;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+header {
+  border-bottom: 1px solid rgb(199, 211, 202);
+  padding: 20px;
+}
+
+.search-form-input {
+  background-color: rgb(199, 211, 202);
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-form-button {
+  background: darkgreen;
+  padding: 15px 12px 15px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  margin-left: 6px;
+  width: 15%;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.MeteoApp-city {
+  margin: 0;
+  font-size: 45px;
+  line-height: 48px;
+}
+
+.MeteoApp-data {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.MeteoApp-data strong {
+  color: #c21448;
+  font-weight: 600;
+}
+
+.MeteoApp-temp {
+  display: flex;
+  padding: 20px;
+}
+
+.MeteoApp-icon {
+  width: 48px;
+  height: 48px;
+  margin-top: 15px;
+}
+
+.MeteoApp-temp° {
+  font-size: 70px;
+  margin-left: 10px;
+}
+
+.MeteoApp-unit {
+  margin-top: 8px;
+  font-size: 24px;
+}
+
+footer {
+  border-top: 1px solid rgb(199, 211, 202);
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(0, 0, 0, 0.6);
+  font-weight: 500;
+}
