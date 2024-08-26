@@ -43,6 +43,16 @@ header {
   width: 15%;
 }
 
+.search-form-button:hover {
+  background-color: rgb(5, 51, 92);
+}
+
+.search-form-button:active {
+  background-color: rgb(5, 51, 92);
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+
 .MeteoApp-data {
   display: flex;
   justify-content: space-between;
